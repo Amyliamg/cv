@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>Contact Me</h1>
+    <p>Phone Number: <strong>332-209-6756</strong></p>
+    <p>Email Address: <em>xl2901@nyu.edu</em></p>
+    <form action="mailto:info@nyu.edu" method = "post" enctype="text/plain"> <!-- default; action: the page jumps to when you click submit. It will create a email draft to info@nyu.edu. The method named post means that we just copy pasuste the message to this email page -->
+      <label>  Your Name:  </label>  <!-- text in the form-->
+      <input type = "text" name = "yourName" value = ""> <br> <!-- input to get the information ； br means line break换行-->
+      <label> Your Email:</label>
+      <input type = "email" name = "yourEmail"> <br> <!-- email, it has a basic validation eg. for email, you must need to include @ signs-->
+      <label> Your Message:</label><br>
+      <textarea name="Message" row = "10" column = "30"> </textarea ><br> <!-- textarea, default
+        row: how many rows , column: how many columns. you could drag the box to make the textbox bigger or smaller-->
+      <input type = "submit" name = ""> <br> <!-- submit-->
+    </form>
+
+  </body>
+</html>
